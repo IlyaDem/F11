@@ -6,13 +6,13 @@ label{cursor: pointer;}
 	width: 350px;
 	height: 200px;
 	border-radius: 30px;
-	border: 2px solid red;
+	border: 2px solid blue;
 }
 .box{
 	width: 50%;
 	height: 100%;
 	border-radius: 30px;
-	background: red;
+	background: blue;
 }
 input:checked + label > .box_wrap {
 	border-color: green
