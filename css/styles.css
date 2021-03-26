@@ -21,3 +21,8 @@ input:checked + label > .box_wrap > .box{
 	background: green;
 	margin-left: 50%;
 }
+ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
