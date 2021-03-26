@@ -1,0 +1,23 @@
+#my{
+	display: none;
+}
+label{cursor: pointer;}
+.box_wrap{
+	width: 350px;
+	height: 200px;
+	border-radius: 30px;
+	border: 2px solid red;
+}
+.box{
+	width: 50%;
+	height: 100%;
+	border-radius: 30px;
+	background: red;
+}
+input:checked + label > .box_wrap {
+	border-color: green
+}
+input:checked + label > .box_wrap > .box{
+	background: green;
+	margin-left: 50%;
+}
